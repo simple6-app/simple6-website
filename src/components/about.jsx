@@ -1,6 +1,6 @@
 import React from "react";
 import iphone from "../assets/img/iphone.png";
-import { AppleIcon, GoogleIcon } from "../assets/svg";
+import { ActionButtons } from "../components";
 
 export const About = () => {
   return (
@@ -11,10 +11,17 @@ export const About = () => {
             <h2 className="text-4xl font-medium sm:text-5xl">About app</h2>
             <div className="space-y-4 text-lg text-gray-500">
               <p>
-                In the New-York Times bestseller book, Atomic Habits, which has
-                sold more than 9 million copies worldwide, is described very
-                simple task managment methodology invented by The Ivy Lee
-                Method. (
+                In the New-York Times bestseller book,{" "}
+                <a
+                  target={"_blank"}
+                  href="https://jamesclear.com/atomic-habits"
+                  className="text-purple-500 font-semibold"
+                >
+                  Atomic Habits
+                </a>
+                , which has sold more than 9 million copies worldwide, described
+                very simple task management methodology invented by the{" "}
+                <span className="font-semibold">Ivy Lee</span>.
               </p>
 
               <p>
@@ -22,50 +29,45 @@ export const About = () => {
                 Here's what makes it so effective:
               </p>
 
-              <ul>
+              <ul className="list-disc pl-4">
                 <li>
-                  It's simple enough to actually work - Use simple rules to
-                  guide complex behavior.
+                  <span className="font-bold">
+                    It's simple enough to actually work
+                  </span>{" "}
+                  - Use simple rules to guide complex behavior.
                 </li>
                 <li>
-                  It forces you to make tough decisions - trim away everything
-                  that isn't absolutely necessary
+                  <span className="font-bold">
+                    It forces you to make tough decisions
+                  </span>{" "}
+                  - trim away everything that isn't absolutely necessary
                 </li>
                 <li>
-                  It removes the friction of starting - forces you to decide on
-                  your first task the night before you go to work
+                  <span className="font-bold">
+                    It removes the friction of starting
+                  </span>{" "}
+                  - forces you to decide on your first task the night before you
+                  go to work
                 </li>
                 <li>
-                  It requires you to single-task - Method will force you to
-                  focus at one task at the time
+                  <span className="font-bold">
+                    It requires you to single-task
+                  </span>{" "}
+                  - Method will force you to focus at one task at the time
                 </li>
               </ul>
               <p>
-                {" "}
                 Read more about Method and the inspiring{" "}
-                <a href="https://jamesclear.com/ivy-lee">story of Ivy Lee </a>)
+                <a
+                  target={"_blank"}
+                  href="https://jamesclear.com/ivy-lee"
+                  className="text-purple-500 font-semibold"
+                >
+                  story of Ivy Lee{" "}
+                </a>
               </p>
             </div>
-            <div className="flex space-x-2.5">
-              <a
-                href="#0"
-                className="inline-flex items-center px-3 py-2 space-x-2 text-white bg-gray-900 rounded-lg hover:bg-blue-600"
-              >
-                <span>
-                  <AppleIcon />
-                </span>
-                <span>AppStore</span>
-              </a>
-              <a
-                href="#0"
-                className="inline-flex items-center px-3 py-2 space-x-2 text-white bg-gray-900 rounded-lg hover:bg-blue-600"
-              >
-                <span>
-                  <GoogleIcon />
-                </span>
-                <span>Google Play</span>
-              </a>
-            </div>
+            <ActionButtons />
           </div>
         </div>
         <div>
