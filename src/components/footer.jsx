@@ -11,11 +11,8 @@ export const Footer = () => {
         <a href="#0" className="hover:text-blue-600">
           Terms
         </a>
-        <a href="#0" className="hover:text-blue-600">
-          Support
-        </a>
-        <a href="#0" className="hover:text-blue-600">
-          Careers
+        <a href="mailto:hi@simple6.app" className="hover:text-blue-600">
+          Contact us
         </a>
       </div>
       <img src={logo} alt="logo icon" className=" h-8" />

@@ -1,5 +1,5 @@
 import React from "react";
-import iphone from "../assets/img/iphone.png";
+import screenToday from "../assets/img/screen-today.png";
 import { ActionButtons } from "../components";
 
 export const About = () => {
@@ -15,7 +15,6 @@ export const About = () => {
                 <a
                   target={"_blank"}
                   href="https://jamesclear.com/atomic-habits"
-                  className="text-purple-500 font-semibold"
                 >
                   Atomic Habits
                 </a>
@@ -58,11 +57,7 @@ export const About = () => {
               </ul>
               <p>
                 Read more about Method and the inspiring{" "}
-                <a
-                  target={"_blank"}
-                  href="https://jamesclear.com/ivy-lee"
-                  className="text-purple-500 font-semibold"
-                >
+                <a target={"_blank"} href="https://jamesclear.com/ivy-lee">
                   story of Ivy Lee{" "}
                 </a>
               </p>
@@ -72,8 +67,8 @@ export const About = () => {
         </div>
         <div>
           <img
-            src={iphone}
-            alt="iphone"
+            src={screenToday}
+            alt="Simple6"
             className="w-full h-full drop-shadow-2xl"
           />
         </div>

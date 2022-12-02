@@ -1,5 +1,11 @@
 import React from "react";
-import iphone from "../assets/img/iphone.png";
+import iconLove from "../assets/img/icons/love.svg";
+import iconCheck from "../assets/img/icons/check.svg";
+import iconGoal from "../assets/img/icons/goal.svg";
+
+// Make a backlog of your tasks and keep track of your progress.
+// Choose six tasks and be ready for the next day.
+// Keep focus. No multitasking. One task at a time.
 
 export const Features = () => {
   return (
@@ -8,76 +14,34 @@ export const Features = () => {
         <div className="grid gap-10 md:grid-cols-3">
           <div className="space-y-6">
             <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-blue-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-                />
-              </svg>
+              <img src={iconLove} />
             </div>
             <div className="space-y-4">
-              <h3 className="text-3xl font-medium">Feature</h3>
+              <h3 className="text-3xl font-medium">Backlog</h3>
               <p className="text-lg text-gray-500">
-                Quibusdam nemo eius consectetur inventore exercitationem
-                possimus quidem delectus magnam.
+                Make a backlog of your tasks and keep track of your progress.
               </p>
             </div>
           </div>
           <div className="space-y-6">
             <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-blue-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4"
-                />
-              </svg>
+              <img src={iconCheck} />
             </div>
             <div className="space-y-4">
-              <h3 className="text-3xl font-medium">Feature</h3>
+              <h3 className="text-3xl font-medium">Tasks</h3>
               <p className="text-lg text-gray-500">
-                Quibusdam nemo eius consectetur inventore exercitationem
-                possimus quidem delectus magnam.
+                Choose six tasks and be ready for the next day in advance.
               </p>
             </div>
           </div>
           <div className="space-y-6">
             <div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-blue-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
+              <img src={iconGoal} />
             </div>
             <div className="space-y-4">
-              <h3 className="text-3xl font-medium">Feature</h3>
+              <h3 className="text-3xl font-medium">Focus</h3>
               <p className="text-lg text-gray-500">
-                Quibusdam nemo eius consectetur inventore exercitationem
-                possimus quidem delectus magnam.
+                No multitasking. Do one task at the time.
               </p>
             </div>
           </div>
