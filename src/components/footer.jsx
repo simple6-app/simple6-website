@@ -6,6 +6,9 @@ export const Footer = () => {
   return (
     <footer className="flex flex-col items-center justify-center pb-10 space-y-8">
       <div className="flex flex-col items-center space-y-3 font-medium text-gray-400 sm:space-y-0 sm:flex-row sm:justify-center sm:space-x-8">
+        <Link to="/" className="hover:text-blue-600">
+          Home
+        </Link>
         <Link to="/privacy" className="hover:text-blue-600">
           Privacy Policy
         </Link>
