@@ -10,6 +10,27 @@ a:hover {
   @apply text-purple-700;
 }
 
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-bold;
+    @apply pb-2;
+  }
+  h2 {
+    @apply text-2xl;
+    @apply font-bold;
+    @apply pb-1;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-bold;
+    @apply pb-1;
+  }
+  p {
+    @apply pb-4;
+  }
+}
+
 .gradient-text {
   background-color: #ff007a;
   background-image: linear-gradient(325deg, #ff007a, #7b61ff);
