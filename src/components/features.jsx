@@ -41,7 +41,7 @@ export const Features = () => {
             <div className="space-y-4">
               <h3 className="text-3xl font-medium">Focus</h3>
               <p className="text-lg text-gray-500">
-                No multitasking. Do one task at the time.
+                No multitasking. Complete one task at a time.
               </p>
             </div>
           </div>

@@ -7,7 +7,7 @@ export const HeroBanner = () => {
     <section className="mt-28">
       <div className="flex flex-col items-center space-y-8 text-center">
         <h1 className="text-4xl font-medium sm:text-5xl  gradient-text">
-          The worlds simplest and effective task management application
+          The world's simplest and most effective task management application
         </h1>
         <ActionButtons />
       </div>

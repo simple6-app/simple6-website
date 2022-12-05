@@ -11,7 +11,7 @@ export const About = () => {
             <h2 className="text-4xl font-medium sm:text-5xl">About app</h2>
             <div className="space-y-4 text-lg text-gray-500">
               <p>
-                In the New-York Times bestseller book,{" "}
+                The New York Times bestseller book{" "}
                 <a
                   target={"_blank"}
                   href="https://jamesclear.com/atomic-habits"
@@ -19,13 +19,13 @@ export const About = () => {
                   Atomic Habits
                 </a>
                 , which has sold more than 9 million copies worldwide, described
-                very simple task management methodology invented by the{" "}
+                a very simple task management methodology invented by
                 <span className="font-semibold">Ivy Lee</span>.
               </p>
 
               <p>
-                Method of prioritizing your to-do list seems stupidly simple.
-                Here's what makes it so effective:
+                The method of prioritizing your to-do list seems stupidly
+                simple. Here's what makes it so effective:
               </p>
 
               <ul className="list-disc pl-4">
@@ -39,24 +39,24 @@ export const About = () => {
                   <span className="font-bold">
                     It forces you to make tough decisions
                   </span>{" "}
-                  - trim away everything that isn't absolutely necessary
+                  - Trim away everything that isn't absolutely necessary
                 </li>
                 <li>
                   <span className="font-bold">
                     It removes the friction of starting
                   </span>{" "}
-                  - forces you to decide on your first task the night before you
+                  - Forces you to decide on your first task the night before you
                   go to work
                 </li>
                 <li>
                   <span className="font-bold">
                     It requires you to single-task
                   </span>{" "}
-                  - Method will force you to focus at one task at a time
+                  - The method will force you to focus on one task at a time
                 </li>
               </ul>
               <p>
-                Read more about Method and the inspiring{" "}
+                Read more about the method and the inspiring
                 <a target={"_blank"} href="https://jamesclear.com/ivy-lee">
                   story of Ivy Lee{" "}
                 </a>
