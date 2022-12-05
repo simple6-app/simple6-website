@@ -19,7 +19,7 @@ export const About = () => {
                   Atomic Habits
                 </a>
                 , which has sold more than 9 million copies worldwide, described
-                a very simple task management methodology invented by
+                a very simple task management methodology invented by{" "}
                 <span className="font-semibold">Ivy Lee</span>.
               </p>
 
@@ -56,7 +56,7 @@ export const About = () => {
                 </li>
               </ul>
               <p>
-                Read more about the method and the inspiring
+                Read more about the method and the inspiring{" "}
                 <a target={"_blank"} href="https://jamesclear.com/ivy-lee">
                   story of Ivy Lee{" "}
                 </a>

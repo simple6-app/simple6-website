@@ -4,7 +4,7 @@ import { ActionButtons } from "../components";
 
 export const HeroBanner = () => {
   return (
-    <section className="mt-28">
+    <section className="md:mt-8 sm:mt-3 lg:mt-28">
       <div className="flex flex-col items-center space-y-8 text-center">
         <h1 className="text-4xl font-medium sm:text-5xl  gradient-text">
           The world's simplest and most effective task management application
