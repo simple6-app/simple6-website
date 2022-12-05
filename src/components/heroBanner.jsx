@@ -9,7 +9,6 @@ export const HeroBanner = () => {
         <h1 className="text-4xl font-medium sm:text-5xl  gradient-text">
           The worlds simplest and effective task management application
         </h1>
-
         <ActionButtons />
       </div>
       <div className="mt-20 sm:w-[396px] sm:mx-auto">

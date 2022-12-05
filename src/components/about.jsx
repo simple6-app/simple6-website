@@ -52,7 +52,7 @@ export const About = () => {
                   <span className="font-bold">
                     It requires you to single-task
                   </span>{" "}
-                  - Method will force you to focus at one task at the time
+                  - Method will force you to focus at one task at a time
                 </li>
               </ul>
               <p>
