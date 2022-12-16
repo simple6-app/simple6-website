@@ -15,9 +15,7 @@ export const About = () => {
                 million copies worldwide. It introduces a task management method
                 created by <i>Ivy Lee</i> that is simple but effective. The
                 method involves prioritizing your to-do list and following
-                simple rules to guide your behavior, making decisions which 6
-                tasks to do the night before, and focusing on one task at a
-                time.{" "}
+                simple rules:
               </p>
 
               <ul className="list-decimal pl-4">
