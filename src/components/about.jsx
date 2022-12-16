@@ -18,6 +18,23 @@ export const About = () => {
                 simple rules to guide your behavior, making decisions which 6
                 tasks to do the night before, and focusing on one task at a
                 time.{" "}
+              </p>
+
+              <ul className="list-decimal pl-4">
+                <li>Write down all your tasks.</li>
+                <li>Chose six tasks to accomplish the next day.</li>
+                <li>Select task in order of importance</li>
+                <li>
+                  Focus on the first task until it is finished. Continue working
+                  through the tasks on your list in order of priority
+                </li>
+                <li>
+                  If you have any tasks left at the end of the day, move them to
+                  a new list of six tasks for the following day
+                </li>
+                <li>Repeat this process every work day.</li>
+              </ul>
+              <p>
                 <a target={"_blank"} href="https://jamesclear.com/ivy-lee">
                   Learn more
                 </a>{" "}
