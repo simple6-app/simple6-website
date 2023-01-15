@@ -14,7 +14,7 @@ export const ActionButtons = () => {
         <span className="text-white">AppStore</span>
       </a>
       <a
-        href="#0"
+        href="https://play.google.com/store/apps/details?id=app.simple6.production"
         className="inline-flex items-center px-3 py-2 space-x-2 text-white bg-gray-900 rounded-lg hover:bg-purple-600 transition"
       >
         <span>
